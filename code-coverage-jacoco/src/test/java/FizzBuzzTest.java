@@ -21,6 +21,4 @@ public class FizzBuzzTest {
     public void getFizzBuzzWord_NumberIsMultipleOfThree_ShouldReturnFizz() {
         assertThat(fizzBuzz.getFizzBuzzWord(3), is("Fizz"));
     }
-
-
 }
